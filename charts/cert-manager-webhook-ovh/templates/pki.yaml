@@ -13,9 +13,7 @@ metadata:
     heritage: {{ .Release.Service }}
 spec:
   selfSigned: {}
-
 ---
-
 # Generate a CA Certificate used to sign certificates for the webhook
 apiVersion: cert-manager.io/v1
 kind: Certificate
