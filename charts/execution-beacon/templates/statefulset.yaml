@@ -3,6 +3,7 @@ apiVersion: {{ include "common.capabilities.statefulset.apiVersion" . }}
 kind: StatefulSet
 metadata:
   name: {{ include "common.names.fullname" . }}
+  
   labels:
     {{- include "common.labels.statefulset" . | nindent 4 }}
 spec:
