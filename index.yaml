@@ -10,4 +10,41 @@ entries:
     urls:
     - cert-manager-webhook-ovh-0.3.1.tgz
     version: 0.3.1
-generated: "2024-11-13T15:55:35.176662789Z"
+  common:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-03-18T14:08:42.863413317Z"
+    description: A Library Helm Chart for grouping common logic between stakewise
+      charts. This chart is not deployable by itself.
+    digest: 2e183dbcaec8bd0b239f3e5f23ef2404e187322d7a22e44ddb3fa5591a11bc60
+    name: common
+    type: library
+    urls:
+    - common-1.0.0.tgz
+    version: 1.0.0
+  execution-beacon:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-03-18T14:08:42.983228149Z"
+    dependencies:
+    - name: common
+      repository: file://../common
+      version: 1.0.0
+    description: A Helm chart for deploying Ethereum execution and consensus clients
+    digest: 4228190afd305736a1947f4656d088419a30d1b0d826980b473801e374b2df5d
+    home: https://www.ethereum.org/
+    keywords:
+    - ethereum
+    - blockchain
+    - nethermind
+    - prysm
+    - p2p
+    maintainers:
+    - name: 0xDones
+    - name: matilote
+    name: execution-beacon
+    type: application
+    urls:
+    - execution-beacon-1.0.11.tgz
+    version: 1.0.11
+generated: "2025-03-18T14:08:42.983237416Z"
