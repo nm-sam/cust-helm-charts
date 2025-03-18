@@ -3,7 +3,7 @@ entries:
   cert-manager-webhook-ovh:
   - apiVersion: v1
     appVersion: 0.3.1
-    created: "2025-03-18T23:40:31.806026+08:00"
+    created: "2025-03-18T23:46:02.4072454+08:00"
     description: OVH DNS cert-manager ACME webhook
     digest: 14b61cbd5eaf999b239d61654d8b9df4e279ea9c20585f954428514aff71bd96
     name: cert-manager-webhook-ovh
@@ -13,9 +13,9 @@ entries:
   execution-beacon:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-03-18T23:40:31.809331+08:00"
+    created: "2025-03-18T23:46:02.4089053+08:00"
     description: A Helm chart for deploying Ethereum execution and consensus clients
-    digest: 38ff83bf1e55ee97a19469d341f35d14bd4930c2c379c7817bbc77858c43de9a
+    digest: ecadea8298c64b70af31d0b548efce27b3c615761d6688ec72c84431a62cb053
     home: https://www.ethereum.org/
     keywords:
     - ethereum
@@ -31,4 +31,4 @@ entries:
     urls:
     - https://nm-sam.github.io/cust-helm-charts/execution-beacon-1.0.11.tgz
     version: 1.0.11
-generated: "2025-03-18T23:40:31.8054319+08:00"
+generated: "2025-03-18T23:46:02.4061757+08:00"
