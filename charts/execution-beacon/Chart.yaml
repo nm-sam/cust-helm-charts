@@ -15,7 +15,12 @@ maintainers:
   - name: 0xDones
   - name: matilote
 
-dependencies:
-  - name: common
-    repository: file://../common
-    version: 1.0.0
+# dependencies:
+#   - name: common
+#     repository: file://../common
+#     version: 1.0.0
+
+# dependencies:
+#   - name: common
+#     repository: ../common
+#     version: 1.0.0
