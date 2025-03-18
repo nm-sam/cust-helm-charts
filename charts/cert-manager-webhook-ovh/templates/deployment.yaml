@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   name: {{ include "cert-manager-webhook-ovh.fullname" . }}
   namespace: {{ .Release.Namespace | quote }}
+  annotations: 
+    test: true
   labels:
     app: {{ include "cert-manager-webhook-ovh.name" . }}
     chart: {{ include "cert-manager-webhook-ovh.chart" . }}
